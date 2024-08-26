@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Sign Up - Akhil's Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <div class="signup-container">
+        <h2>Library Sign Up</h2>
+        <form action="/signup" method="post">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirm_password">Confirm Password</label>
+            <input type="password" id="confirm_password" name="confirm_password" required>
+
+            <input type="submit" value="Sign Up">
+        </form>
+        <div class="footer">
+            <a href="/index.html">Already have an account? Log in</a>
+        </div>
+    </div>
+</body>
+</html>
