@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Details - Library</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            padding-top: 70px;
+        }
+        .book-cover {
+            max-width: 300px;
+            height: auto;
+            object-fit: cover;
+        }
+        .book-info h1 {
+            margin-bottom: 20px;
+        }
+        .book-details {
+            margin-top: 30px;
+        }
+        .related-books {
+            margin-top: 50px;
+            padding: 20px 0;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .related-books .carousel-item {
+            text-align: center;
+        }
+        .related-books img {
+            max-width: 100px;
+            margin-bottom: 10px;
+        }
+        .related-books h5 {
+            font-size: 1rem;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header with Login and Sign Up -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Library</a>
+        <div class="collapse navbar-collapse justify-content-end">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Main Content -->
+<div class="container">
+    <div class="row">
+        <!-- Book Cover Image -->
+        <div class="col-md-4 text-center">
+            <img src="images/Read People Like a Book.jpg" class="img-fluid book-cover" alt="Book Cover">
+        </div>
+        
+        <!-- Book Information -->
+        <div class="col-md-8 book-info">
+            <h1>Book Title</h1>
+            <h4>by Patrick King</h4>
+            <p><strong>Genre:</strong> Fiction</p>
+            <p><strong>Publication Year:</strong> 2020</p>
+            <p><strong>ISBN:</strong> 123-456-789</p>
+            <p class="mt-4">Speed read people, decipher body language, detect lies, and understand human nature.
+                Is it possible to analyze people without them saying a word? Yes, it is. Learn how to become a “mind reader” and forge deep connections.
+                How to get inside people’s heads without them knowing.
+                </p>
+        </div>
+    </div>
+    
+    <!-- Additional Details Section -->
+    <div class="row book-details">
+        <div class="col-md-12">
+            <h3>More About This Book</h3>
+            <p>Read People Like a Book isn’t a normal book on body language of facial expressions. Yes, it includes all of those things, as well as new techniques on how to truly detect lies in your everyday life, but this book is more about understanding human psychology and nature. We are who we are because of our experiences and pasts, and this guides our habits and behaviors more than anything else. Parts of this book read like the most interesting and applicable psychology textbook you’ve ever read. Take a look inside yourself and others!
+                Understand the subtle signals that you are sending out and increase your emotional intelligence.
+                Patrick King is an internationally bestselling author and social skills coach. His writing draws of a variety of sources, from scientific research, academic experience, coaching, and real life experience.
+                Learn the keys to influencing and persuading others.
+                •What people’s limbs can tell us about their emotions.•Why lie detecting isn’t so reliable when ignoring context.•Diagnosing personality as a means to understanding motivation.•Deducing the most with the least amount of information.•Exactly the kinds of eye contact to use and avoid
+                Find shortcuts to connect quickly and deeply with strangers.
+                The art of reading and analyzing people is truly the art of understanding human nature. Consider it like a cheat code that will allow you to see through people’s actions and words.
+                Decode people’s thoughts and intentions, and you can go in any direction you want with them.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Related Books Section -->
+<div class="container related-books">
+    <h3 class="text-center">Related Books</h3>
+    <div id="relatedBooksCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/The power of now.jpg" alt="The power of now">
+                <h5>The power of now</h5>
+            </div>
+            <div class="carousel-item">
+                <img src="images/The Psychology of Money.jpg" alt="The Psychology of Money">
+                <h5>The Psychology of Money</h5>
+            </div>
+            <div class="carousel-item">
+                <img src="images/The Seven Husbands of Evelyn Hugo.jpg" alt="The Seven Husbands of Evelyn Hugo">
+                <h5>The Seven Husbands of Evelyn Hugo</h5>
+            </div>
+            <div class="carousel-item">
+                <img src="images/Twisted Lies.jpg" alt="Twisted Lies">
+                <h5>Twisted Lies</h5>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
